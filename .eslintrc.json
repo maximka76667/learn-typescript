@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "@typescript-eslint/no-unused-vars": "off",
+        "@typescript-eslint/consistent-type-definitions": ["error", "interface"],
+        "quotes": ["error", "double"],
+        "linebreak-style": ["error", "windows"]
+    },
+    "overrides": [
+        {
+            "files": ["*.ts"],
+            "rules": {
+                "no-unused-vars": "off",
+                "no-console": "off"
+            }
+        }
+    ]
+}
