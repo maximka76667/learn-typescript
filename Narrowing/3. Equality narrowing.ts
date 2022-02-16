@@ -11,7 +11,7 @@ function example(x: number | string, y: number | boolean) {
     // (parameter) x: string | number
 
     console.log(y);
-    // (parameter) y: string | boolean
+    // (parameter) y: number | boolean
   }
 }
 
