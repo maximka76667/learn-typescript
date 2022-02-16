@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js,.ts .",
+    "fix": "eslint --fix *.ts .",
     "ts": "tsc hello.ts"
   },
   "repository": {
