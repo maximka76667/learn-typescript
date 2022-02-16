@@ -4,9 +4,8 @@
 
 function example(x: number | string, y: number | boolean) {
   if (x === y) {
-    // We can now call any 'string' method on 'x' or 'y'.
+    // We can now call any 'number' method on 'x' or 'y'.
     console.log(x + y);
-    // (method) String.toUpperCase(): string
   } else {
     console.log(x);
     // (parameter) x: string | number
