@@ -15,14 +15,16 @@
     ],
     "rules": {
         "@typescript-eslint/no-unused-vars": "off",
+        "no-redeclare": "off",
         "quotes": ["error", "double"],
         "linebreak-style": ["error", "windows"],
-        "max-len": ["error", { "comments": 100 }],
-        "no-redeclare": "off"
+        "max-len": ["error",{"comments": 100}]
     },
     "overrides": [
         {
-            "files": ["*.ts"],
+            "files": [
+                "*.ts"
+            ],
             "rules": {
                 "no-unused-vars": "off",
                 "no-console": "off"
