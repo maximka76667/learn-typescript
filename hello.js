@@ -1,4 +1,8 @@
-function greet(person, date) {
-  console.log("Hello ".concat(person, ", today is ").concat(date.toDateString(), "!"));
+function liveDangerouslyTest(x) {
+  // No error
+  console.log(x.toFixed());
 }
-greet("Maddison");
+
+liveDangerouslyTest(10);
+liveDangerouslyTest(null);
+liveDangerouslyTest(undefined);

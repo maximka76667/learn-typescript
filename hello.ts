@@ -1,5 +1,8 @@
-function greet(person: string, date: Date) {
-  console.log(`Hello ${person}, today is ${date.toDateString()}!`);
+function liveDangerouslyTest(x?: number | null) {
+  // No error
+  console.log(x!.toFixed());
 }
 
-greet("Maddison");
+liveDangerouslyTest(10);
+liveDangerouslyTest(null);
+liveDangerouslyTest(undefined);

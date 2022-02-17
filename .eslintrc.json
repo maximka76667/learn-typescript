@@ -16,9 +16,20 @@
     "rules": {
         "@typescript-eslint/no-unused-vars": "off",
         "no-redeclare": "off",
-        "quotes": ["error", "double"],
-        "linebreak-style": ["error", "windows"],
-        "max-len": ["error",{"comments": 100}]
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "max-len": [
+            "error",
+            {
+                "comments": 100
+            }
+        ]
     },
     "overrides": [
         {
